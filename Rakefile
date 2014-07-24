@@ -58,4 +58,7 @@ namespace :greeting do
   task :howdy do
     puts "Howdy partner"
   end
+
 end
+
+task :default => "greeting:hello"
